@@ -1,0 +1,23 @@
+/*
+	Theme Name:			Skelementor
+	Description:		Ultra-minimal theme designed specifically for Elementor and to be as lightweight as possible.
+	Theme URI:			https://mousebuilt.com.au/skelementor-theme/
+	Author:				Mousebuilt (Konker)
+	Author URI:			https://mousebuilt.com.au/
+	Version:			1.1.2
+	Requires at least:	4.9
+	Tested up to:		5.1
+	License:			GNU General Public License v3 or later.
+	License URI:		https://www.gnu.org/licenses/gpl-3.0.html
+	Tags:				custom-logo, one-column, two-columns, translation-ready
+	Text Domain: 		skelementor
+*/
+
+html, body {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	direction: rtl;
+	padding: 1rem 2rem;
+	font-family: sans-serif;	
+}
