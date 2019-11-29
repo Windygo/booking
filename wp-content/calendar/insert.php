@@ -6,20 +6,10 @@
 // credentials.
 
 
-
-POST https://www.googleapis.com/calendar/v3/calendars/windygo.co.il_u4vgnsknqi36hvk8l1crbuhgo4%40group.calendar.google.com/events?maxAttendees=2&sendNotifications=true&sendUpdates=all&key=AIzaSyBcJ1HJNjFr0gakkwcn440COQdp_wAxsk4 HTTP/1.1
-
-Authorization: Bearer [YOUR_ACCESS_TOKEN]
-Accept: application/json
-Content-Type: application/json
-
-{
-  "summary": "Surf Lesson - 2PAX - 1 hour",
-  "description": "WC ORDER # 99999, 054-8899887",
-  "end": {
-    "dateTime": "2019-11-30T11:00:00+02:00"
-  },
-  "start": {
-    "dateTime": "2019-11-30T10:00:00+02:00"
-  }
-}
+curl --request POST \
+  'https://www.googleapis.com/calendar/v3/calendars/windygo.co.il_u4vgnsknqi36hvk8l1crbuhgo4%40group.calendar.google.com/events?maxAttendees=2&sendNotifications=true&sendUpdates=all&key=[YOUR_API_KEY]' \
+  --header 'Authorization: Bearer [YOUR_ACCESS_TOKEN]' \
+  --header 'Accept: application/json' \
+  --header 'Content-Type: application/json' \
+  --data '{"summary":"Surf Lesson - 2PAX - 1 hour","description":"WC ORDER # 99999, 054-8899887","end":{"dateTime":"2019-11-30T11:00:00+02:00"},"start":{"dateTime":"2019-11-30T10:00:00+02:00"}}' \
+  --compressed
