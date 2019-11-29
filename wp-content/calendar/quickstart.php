@@ -108,7 +108,7 @@ if (empty($events)) {
 
 POST https://www.googleapis.com/calendar/v3/calendars/windygo.co.il_u4vgnsknqi36hvk8l1crbuhgo4%40group.calendar.google.com/events?maxAttendees=2&sendNotifications=true&sendUpdates=all&key=[YOUR_API_KEY] HTTP/1.1
 
-Authorization: Bearer AIzaSyBcJ1HJNjFr0gakkwcn440COQdp_wAxsk4
+Authorization: Bearer [YOUR_ACCESS_TOKEN]
 Accept: application/json
 Content-Type: application/json
 
