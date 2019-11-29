@@ -13,7 +13,7 @@ function getClient()
 {
     $client = new Google_Client();
     $client->setApplicationName('Google Calendar API PHP Quickstart');    
-    $client->setScopes(Google_Service_Calendar::CALENDAR_EVENTS);
+    $client->setScopes(Google_Service_Calendar::CALENDAR);
     $client->setAuthConfig('credentials.json');
     $client->setAccessType('offline');
     $client->setPrompt('select_account consent');
@@ -65,6 +65,7 @@ $service = new Google_Service_Calendar($client);
 
 // Print the next 10 events on the user's calendar.
 $event = new Google_Service_Calendar_Event(array(
+  'kind' => 'calendar#event',
   'summary' => 'Surf Lesson - 2PAX - 1 hour',
   'description' => 'WC ORDER # 99999, 054-8899887',
   'start' => array(
