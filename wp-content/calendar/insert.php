@@ -69,11 +69,11 @@ $event = new Google_Service_Calendar_Event(array(
   'description' => 'WC ORDER # 99999, 054-8899887',
   'start' => array(
     'dateTime' => '2019-11-30T10:00:00+02:00',
-    'timeZone' => 'America/Los_Angeles',
+    'timeZone' => 'Asia/Jerusalem',
   ),
   'end' => array(
     'dateTime' => '2019-11-30T11:00:00+02:00',
-    'timeZone' => 'America/Los_Angeles',
+    'timeZone' => 'Asia/Jerusalem',
   ),
 ));
 
