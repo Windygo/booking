@@ -12,8 +12,8 @@ if (php_sapi_name() != 'cli') {
 function getClient()
 {
     $client = new Google_Client();
-    $client->setApplicationName('Google Calendar API PHP Quickstart');
-    $client->setScopes(Google_Service_Calendar::CALENDAR);
+    $client->setApplicationName('Google Calendar API PHP Quickstart');    
+    $client->setScopes(Google_Service_Calendar::CALENDAR_EVENTS);
     $client->setAuthConfig('credentials.json');
     $client->setAccessType('offline');
     $client->setPrompt('select_account consent');
