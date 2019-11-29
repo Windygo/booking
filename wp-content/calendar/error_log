@@ -1,0 +1,112 @@
+[28-Nov-2019 21:07:52 Europe/London] PHP Warning:  require(/home/windygoi/public_html/booking/wp-content/calendar/vendor/autoload.php): failed to open stream: No such file or directory in /home/windygoi/public_html/booking/wp-content/calendar/quickstart.php on line 2
+[28-Nov-2019 21:07:52 Europe/London] PHP Fatal error:  require(): Failed opening required '/home/windygoi/public_html/booking/wp-content/calendar/vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/windygoi/public_html/booking/wp-content/calendar/quickstart.php on line 2
+[28-Nov-2019 21:19:01 Europe/London] PHP Fatal error:  Uncaught Exception: This application must be run on the command line. in /home/windygoi/public_html/booking/wp-content/calendar/quickstart.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/windygoi/public_html/booking/wp-content/calendar/quickstart.php on line 5
+[28-Nov-2019 21:22:16 Europe/London] PHP Fatal error:  Uncaught Exception: This application must be run on the command line. in /home/windygoi/public_html/booking/wp-content/calendar/quickstart.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/windygoi/public_html/booking/wp-content/calendar/quickstart.php on line 5
+[28-Nov-2019 21:23:56 Europe/London] PHP Fatal error:  Uncaught Exception: This application must be run on the command line. in /home/windygoi/public_html/booking/wp-content/calendar/quickstart.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/windygoi/public_html/booking/wp-content/calendar/quickstart.php on line 5
+[29-Nov-2019 04:42:54 Europe/London] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "notFound",
+    "message": "Not Found"
+   }
+  ],
+  "code": 404,
+  "message": "Not Found"
+ }
+}
+ in /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Clien in /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[29-Nov-2019 04:44:17 Europe/London] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "notFound",
+    "message": "Not Found"
+   }
+  ],
+  "code": 404,
+  "message": "Not Found"
+ }
+}
+ in /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Clien in /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[29-Nov-2019 04:44:23 Europe/London] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "notFound",
+    "message": "Not Found"
+   }
+  ],
+  "code": 404,
+  "message": "Not Found"
+ }
+}
+ in /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Clien in /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[29-Nov-2019 04:46:36 Europe/London] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "notFound",
+    "message": "Not Found"
+   }
+  ],
+  "code": 404,
+  "message": "Not Found"
+ }
+}
+ in /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Clien in /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[29-Nov-2019 04:46:59 Europe/London] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "notFound",
+    "message": "Not Found"
+   }
+  ],
+  "code": 404,
+  "message": "Not Found"
+ }
+}
+ in /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Clien in /home/windygoi/public_html/booking/wp-content/calendar/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[29-Nov-2019 06:34:55 Europe/London] PHP Warning:  printf(): Too few arguments in /home/windygoi/public_html/booking/wp-content/calendar/quickstart.php on line 90
+[29-Nov-2019 07:01:44 Europe/London] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/windygoi/public_html/booking/wp-content/calendar/quickstart.php on line 94
+[29-Nov-2019 07:10:46 Europe/London] PHP Warning:  Use of undefined constant � - assumed '�' (this will throw an Error in a future version of PHP) in /home/windygoi/public_html/booking/wp-content/calendar/quickstart.php on line 94
