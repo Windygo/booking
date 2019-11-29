@@ -78,6 +78,7 @@ $event = new Google_Service_Calendar_Event(array(
 ));
 
 
-$calendarId = 'windygo.co.il_u4vgnsknqi36hvk8l1crbuhgo4@group.calendar.google.com';
+//$calendarId = 'windygo.co.il_u4vgnsknqi36hvk8l1crbuhgo4@group.calendar.google.com';
+$calendarId = 'primary';
 $event = $service->events->insert($calendarId, $event);
 printf('Event created: %s\n', $event->htmlLink);
