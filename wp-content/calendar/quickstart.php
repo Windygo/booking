@@ -97,3 +97,30 @@ if (empty($events)) {
         echo $summary. ' ' . $start. ' '. $end;
     }
 }
+
+// Insert New Event
+// Refer to the PHP quickstart on how to setup the environment:
+// https://developers.google.com/calendar/quickstart/php
+// Change the scope to Google_Service_Calendar::CALENDAR and delete any stored
+// credentials.
+
+$event = new Google_Service_Calendar_Event(array(
+    'summary' => 'Surf Lesson - 2PAX - 1 hour',
+    'location' => 'Reefsea - Dan Akadia',
+    'description' => 'WC ORDER # 99999, 054-8899887',
+    'start' => array(
+      'dateTime' => '2019-11-30T10:00:00+02:00',
+      'timeZone' => 'America/Los_Angeles',
+    ),
+    'end' => array(
+      'dateTime' => '2019-11-30T11:00:00+02:00',
+      'timeZone' => 'Asia/Jerusalem',
+    ),
+   
+  ));
+  
+  $calendarId = 'windygo.co.il_u4vgnsknqi36hvk8l1crbuhgo4@group.calendar.google.com';
+  $event = $service->events->insert($calendarId, $event);
+  printf('Event created: %s\n', $event->htmlLink);
+
+ 
