@@ -12,7 +12,7 @@ if (php_sapi_name() != 'cli') {
 function getClient()
 {
     $client = new Google_Client();
-    $client->setApplicationName('Google Calendar API PHP Quickstart');    
+    $client->setApplicationName('Reef Lessons Booking');    
     $client->setScopes(Google_Service_Calendar::CALENDAR);
     $client->setAuthConfig('credentials.json');
     $client->setAccessType('offline');
@@ -65,21 +65,20 @@ $service = new Google_Service_Calendar($client);
 
 // Print the next 10 events on the user's calendar.
 $event = new Google_Service_Calendar_Event(array(
-  'kind' => 'calendar#event',
   'summary' => 'Surf Lesson - 2PAX - 1 hour',
   'description' => 'WC ORDER # 99999, 054-8899887',
   'start' => array(
-    'dateTime' => '2019-11-30T10:00:00+02:00',
+    'dateTime' => '2019-11-30T13:00:00+02:00',
     'timeZone' => 'Asia/Jerusalem',
   ),
   'end' => array(
-    'dateTime' => '2019-11-30T11:00:00+02:00',
+    'dateTime' => '2019-11-30T14:00:00+02:00',
     'timeZone' => 'Asia/Jerusalem',
   ),
 ));
 
 
 //$calendarId = 'windygo.co.il_u4vgnsknqi36hvk8l1crbuhgo4@group.calendar.google.com';
-$calendarId = 'primary';
+$calendarId = 'windygo.co.il_u4vgnsknqi36hvk8l1crbuhgo4@group.calendar.google.com';
 $event = $service->events->insert($calendarId, $event);
 printf('Event created: %s\n', $event->htmlLink);
