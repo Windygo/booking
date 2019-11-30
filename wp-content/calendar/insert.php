@@ -12,6 +12,7 @@ if (php_sapi_name() != 'cli') {
 function getClient()
 {
     $client = new Google_Client();
+    $client->setRedirectUri("urn:ietf:wg:oauth:2.0:oob");
     $client->setApplicationName('Reef Lessons Booking');    
     $client->setScopes(Google_Service_Calendar::CALENDAR);
     $client->setAuthConfig('credentials.json');
