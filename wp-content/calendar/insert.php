@@ -74,7 +74,7 @@ $event = new Google_Service_Calendar_Event(array(
   'end' => array(
     'dateTime' => '2019-11-30T14:00:00+02:00',
     'timeZone' => 'Asia/Jerusalem',
-  ),
+  ),  
 ));
 
 
