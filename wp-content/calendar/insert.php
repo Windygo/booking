@@ -16,7 +16,7 @@ function getClient()
     $client->setScopes(Google_Service_Calendar::CALENDAR);
     $client->setAuthConfig('credentials.json');
     //$client->setRedirectUri('https://' . $_SERVER['HTTP_HOST'] . '/oauth2callback.php');
-    $client->setRedirectUri('https://booking.windygo.io/oauth2callback.php');
+    //$client->setRedirectUri('https://booking.windygo.io/oauth2callback.php');
     $client->setAccessType('offline');
     $client->setPrompt('select_account consent');
 
